@@ -1,0 +1,138 @@
+/* Переменные стилей - цвет */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --button-color: #f5f4fa;
+  --primary-white-color: #ffffff;
+}
+/* Цвет фона ГЕРОЙ #2F303A */
+/* Цвет почта и номер в ФУТУРЕ rgba(255, 255, 255, 0,6);*/
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+/* Лого */
+.logo {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* Навигация */
+
+.link-current {
+  text-decoration: none;
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Почта и телефон в ШАПКЕ */
+
+.email-tel {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+.email-tel:hover,
+.email-tel:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.button-accent {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Особенности */
+.feature-title {
+  color: var(--primary-text-color);
+}
+.feature-text {
+  color: var(--secondary-text-color);
+}
+
+/* Чем мы занимаемся */
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* Наща команда */
+.team {
+  background-color: var(--button-color);
+}
+
+.team-title {
+  color: var(--primary-text-color);
+}
+.team-text {
+  color: var(--secondary-text-color);
+}
+
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  text-decoration: none;
+  color: var(--primary-white-color);
+}
+.footer-text {
+  color: var(--primary-white-color);
+}
+.footer-email-tel {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ПОРТФОЛИО */
+
+/* Кнопки */
+.button {
+  cursor: pointer;
+  background-color: var(--button-color);
+  color: var(--primary-text-color);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Проекты */
+.project-title {
+  color: var(--primary-text-color);
+}
+.project-text {
+  color: var(--secondary-text-color);
+}
