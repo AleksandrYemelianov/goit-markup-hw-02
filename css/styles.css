@@ -178,6 +178,10 @@ body {
   line-height: 1.71;
 }
 
+.footer-email-tel:hover,
+.footer-email-tel:focus {
+  color: var(--accent-color);
+}
 /* ПОРТФОЛИО */
 
 /* Кнопки */
